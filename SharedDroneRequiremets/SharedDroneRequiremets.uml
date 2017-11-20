@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_0AJQkMMdEeeEluDV2uAdlw" name="PruebaSysML">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_0dcQkMMdEeeEluDV2uAdlw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_0d3HUMMdEeeEluDV2uAdlw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_93hlYMMdEeeEluDV2uAdlw" name="Drone">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_WgozMMbOEee0P7Ly8l1XUw" name="Security and safety">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_lZPmMMbOEee0P7Ly8l1XUw" name="Security height"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_pN6KoMbOEee0P7Ly8l1XUw" name="Security perimerter"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_sMy9oMbOEee0P7Ly8l1XUw" name="Software access"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ra79AMWIEeeyZIxsEx9GKA" name="Communication"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sPltEMWIEeeyZIxsEx9GKA" name="Movement">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_kq5BkMYBEeeyv7ushnNdsQ" name="Entrance dealing"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_f5-I4MYEEeeyv7ushnNdsQ" name="Take off and Landing"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2n-V0MWLEeeyZIxsEx9GKA" name="Physical properties">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_vtPQgMYIEeeyv7ushnNdsQ" name="Size"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_wChkAMYIEeeyv7ushnNdsQ" name="Autonomy"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_t6_aQMbNEee0P7Ly8l1XUw" name="Battery recharge"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cLu9AMWKEeeyZIxsEx9GKA" name="Vision">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_NbyLwMYDEeeyv7ushnNdsQ" name="Environment identification"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_XlzIsMYDEeeyv7ushnNdsQ" name="Objective detection"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jKuBAMWNEeeyZIxsEx9GKA" name="Inside movement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QT4aQMYDEeeyv7ushnNdsQ" name="Collision detection"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QrELMMYDEeeyv7ushnNdsQ" name="Fire detection"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fLcvEMWNEeeyZIxsEx9GKA" name="Outside movement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kW2H0MWLEeeyZIxsEx9GKA" name="Fire extinguish">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_m5qM8MYGEeeyv7ushnNdsQ" name="Use fire extinguisher"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TdehEMYGEeeyv7ushnNdsQ" name="Get fire extinguisher"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dR4gMMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dTGoMMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dU70MMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dVi4MMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dVi4cMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dWJ8MMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dWJ8cMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dWxAMMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dWxAcMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dXYEMMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dX_IMMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dX_IcMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dYmMMMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dYmMcMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dZNQMMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dZNQcMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dZ0UMMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dabYMMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dbCcMMdEeeEluDV2uAdlw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dbCccMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_-Kqj0MMdEeeEluDV2uAdlw" base_Class="_93hlYMMdEeeEluDV2uAdlw" id="1" text="Autonomously locate and extinguish fire inside buildings "/>
+  <Requirements:Requirement xmi:id="_rphyoMWIEeeyZIxsEx9GKA" base_Class="_ra79AMWIEeeyZIxsEx9GKA" id="1.1" text="Drone MUST recieve the fire alarm to start the mission and MUST send a success/failure message at the end of the mission&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_sPzIcMWIEeeyZIxsEx9GKA" base_Class="_sPltEMWIEeeyZIxsEx9GKA" id="1.2" text="Drone MUST be able to fly outside and inside the building avoiding obstacles&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_cL4G8MWKEeeyZIxsEx9GKA" base_Class="_cLu9AMWKEeeyZIxsEx9GKA" id="1.3" text="Drone MUST identify the environment, detect collisions and fire&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_kW_40MWLEeeyZIxsEx9GKA" base_Class="_kW2H0MWLEeeyZIxsEx9GKA" id="1.4" text="Drone MUST be able to extinguish the fire&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_2oGRoMWLEeeyZIxsEx9GKA" base_Class="_2n-V0MWLEeeyZIxsEx9GKA" id="1.5" text="Done dimensions, design and devices MUST grant its adecuate operation&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_fLoVQMWNEeeyZIxsEx9GKA" base_Class="_fLcvEMWNEeeyZIxsEx9GKA" id="1.2.2" text="Drone MUST go from the top of the building to the sides to locate the floors with fire. And MUST keep a security distance with the building. Drone SHOULD be able to resist simulated weather conditions like wind&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_jK5nMMWNEeeyZIxsEx9GKA" base_Class="_jKuBAMWNEeeyZIxsEx9GKA" id="1.2.4" text="Drone MUST be able to avoid obstacles, fire and MUST keep a security distance with the floor, walls and ceiling"/>
+  <Requirements:Requirement xmi:id="_krGc8MYBEeeyv7ushnNdsQ" base_Class="_kq5BkMYBEeeyv7ushnNdsQ" id="1.2.3" text="Drone MUST be able to open and close doors and windows to acess the building&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_Nb9x8MYDEeeyv7ushnNdsQ" base_Class="_NbyLwMYDEeeyv7ushnNdsQ" id="1.3.1" text="Drone MUST know where it is operating: outside the building, inside, on the roof, the floor&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_QUCLQMYDEeeyv7ushnNdsQ" base_Class="_QT4aQMYDEeeyv7ushnNdsQ" id="1.3.2" text="Drone MUST detect collisions in the 3 directions of space "/>
+  <Requirements:Requirement xmi:id="_QrTbwMYDEeeyv7ushnNdsQ" base_Class="_QrELMMYDEeeyv7ushnNdsQ" id="1.3.3" text="Drone MUST identify where the fire is located, its size and temperature"/>
+  <Requirements:Requirement xmi:id="_Xl8SoMYDEeeyv7ushnNdsQ" base_Class="_XlzIsMYDEeeyv7ushnNdsQ" id="1.3.4" text="Drone MUST identify the current objetives to reach: window/door, fire extinguishers, start position"/>
+  <Requirements:Requirement xmi:id="_f6UHIMYEEeeyv7ushnNdsQ" base_Class="_f5-I4MYEEeeyv7ushnNdsQ" id="1.2.1" text="Drone MUST be able to safetely take off from the roof of the building and land in the original spot after the mission concludes"/>
+  <Requirements:Requirement xmi:id="_TdnD8MYGEeeyv7ushnNdsQ" base_Class="_TdehEMYGEeeyv7ushnNdsQ" id="1.4.1" text="Drone MUST be able to get and carry the fire extinguisher"/>
+  <Requirements:Requirement xmi:id="_m5zW4MYGEeeyv7ushnNdsQ" base_Class="_m5qM8MYGEeeyv7ushnNdsQ" id="1.4.2" text="Drone MUST activate the fire extinguisher where the fire is located"/>
+  <Requirements:Requirement xmi:id="_vtXMUMYIEeeyv7ushnNdsQ" base_Class="_vtPQgMYIEeeyv7ushnNdsQ" id="1.5.1" text="Drone size MUST be suitable to allow passing through doors, windows and corridors"/>
+  <Requirements:Requirement xmi:id="_wCpf0MYIEeeyv7ushnNdsQ" base_Class="_wChkAMYIEeeyv7ushnNdsQ" id="1.5.2" text="Drone MUST be operating AT LEAST 20 minutes, SHOULD operate more than 30 minutes"/>
+  <Requirements:Requirement xmi:id="_uOioYMbNEee0P7Ly8l1XUw" base_Class="_t6_aQMbNEee0P7Ly8l1XUw" id="1.5.3" text="Drone SHOULD be able to be available during a whole workday. Drone MUST be recharged in non-active moments."/>
+  <Requirements:Requirement xmi:id="_WgzLQMbOEee0P7Ly8l1XUw" base_Class="_WgozMMbOEee0P7Ly8l1XUw" id="1.6" text="Drone MUST grant safety behavior"/>
+  <Requirements:Requirement xmi:id="_lZZ-QMbOEee0P7Ly8l1XUw" base_Class="_lZPmMMbOEee0P7Ly8l1XUw" id="1.6.1" text="Drone MUST fly over the security height in order to avoid people"/>
+  <Requirements:Requirement xmi:id="_pOEisMbOEee0P7Ly8l1XUw" base_Class="_pN6KoMbOEee0P7Ly8l1XUw" id="1.6.2" text="Drone MUST reamin allways within the building perimeter"/>
+  <Requirements:Requirement xmi:id="_sM8uoMbOEee0P7Ly8l1XUw" base_Class="_sMy9oMbOEee0P7Ly8l1XUw" id="1.6.3" text="The access to the drone communication system MUST be protected with a log in password"/>
+</xmi:XMI>
