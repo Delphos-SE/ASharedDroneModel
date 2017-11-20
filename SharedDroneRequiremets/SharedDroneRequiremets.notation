@@ -827,7 +827,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbIdHs4cEeeonJO5i0chrg"/>
     </children>
     <element xmi:type="uml:Class" href="SharedDroneRequiremets.uml#_FGuTUM4cEeeonJO5i0chrg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbH2Ac4cEeeonJO5i0chrg" x="380" y="20"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbH2Ac4cEeeonJO5i0chrg" x="340" y="20"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_FbQY484cEeeonJO5i0chrg" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_FbQY5M4cEeeonJO5i0chrg"/>
@@ -1242,6 +1242,6 @@
     <element xsi:nil="true"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HnME8s4cEeeonJO5i0chrg" points="[540, 80, -643984, -643984]$[380, 80, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hp4zoM4cEeeonJO5i0chrg" id="(0.0,0.49586776859504134)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hp4zoc4cEeeonJO5i0chrg" id="(0.0,0.6)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hp4zoc4cEeeonJO5i0chrg" id="(1.0,0.5405405405405406)"/>
   </edges>
 </notation:Diagram>
