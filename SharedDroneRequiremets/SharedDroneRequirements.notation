@@ -871,6 +871,40 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rHGPDs4jEeeonJO5i0chrg" x="200"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_SpRlcM40EeeP__1JeItuMQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SpSMgM40EeeP__1JeItuMQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SpSMgc40EeeP__1JeItuMQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SpSMgs40EeeP__1JeItuMQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SpSMg840EeeP__1JeItuMQ" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SpSMhM40EeeP__1JeItuMQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SpSMhc40EeeP__1JeItuMQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SpSMhs40EeeP__1JeItuMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SpSMh840EeeP__1JeItuMQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SpSMiM40EeeP__1JeItuMQ" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SpSMic40EeeP__1JeItuMQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SpSMis40EeeP__1JeItuMQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SpSMi840EeeP__1JeItuMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SpSMjM40EeeP__1JeItuMQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SpSMjc40EeeP__1JeItuMQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SpSMjs40EeeP__1JeItuMQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SpSMj840EeeP__1JeItuMQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SpSMkM40EeeP__1JeItuMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SpSMkc40EeeP__1JeItuMQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="SharedDroneRequirements.uml#_R6OHEM40EeeP__1JeItuMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SpRlcc40EeeP__1JeItuMQ" x="640" y="240" width="121" height="101"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Spb9g840EeeP__1JeItuMQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Spb9hM40EeeP__1JeItuMQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Spb9hs40EeeP__1JeItuMQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="SharedDroneRequirements.uml#_R6OHEM40EeeP__1JeItuMQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Spb9hc40EeeP__1JeItuMQ" x="200"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_0lKpMcMdEeeEluDV2uAdlw" name="diagram_compatibility_version" stringValue="1.3.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_0lKpMsMdEeeEluDV2uAdlw"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_0lKpM8MdEeeEluDV2uAdlw" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
@@ -1294,5 +1328,22 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vM18Us4jEeeonJO5i0chrg" points="[540, 60, -643984, -643984]$[460, 60, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vPb9UM4jEeeonJO5i0chrg" id="(0.0,0.3305785123966942)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vPb9Uc4jEeeonJO5i0chrg" id="(1.0,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_SpckkM40EeeP__1JeItuMQ" type="StereotypeCommentLink" source="_SpRlcM40EeeP__1JeItuMQ" target="_Spb9g840EeeP__1JeItuMQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Spckkc40EeeP__1JeItuMQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Spcklc40EeeP__1JeItuMQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="SharedDroneRequirements.uml#_R6OHEM40EeeP__1JeItuMQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Spckks40EeeP__1JeItuMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Spckk840EeeP__1JeItuMQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SpcklM40EeeP__1JeItuMQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fBll8M40EeeP__1JeItuMQ" type="Element_ContainmentEdge" source="_cMEUMMWKEeeyZIxsEx9GKA" target="_SpRlcM40EeeP__1JeItuMQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fBll8c40EeeP__1JeItuMQ"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fBll8s40EeeP__1JeItuMQ" points="[441, 260, -643984, -643984]$[560, 260, -643984, -643984]$[580, 260, -643984, -643984]$[640, 280, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fDpbcM40EeeP__1JeItuMQ" id="(1.0,0.49586776859504134)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fDpbcc40EeeP__1JeItuMQ" id="(0.0,0.19801980198019803)"/>
   </edges>
 </notation:Diagram>
