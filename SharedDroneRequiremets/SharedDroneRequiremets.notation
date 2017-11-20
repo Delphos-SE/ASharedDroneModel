@@ -803,7 +803,6 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNaBpcbOEee0P7Ly8l1XUw" x="200"/>
   </children>
-<<<<<<< HEAD
   <children xmi:type="notation:Shape" xmi:id="_FbH2AM4cEeeonJO5i0chrg" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_FbH2As4cEeeonJO5i0chrg" type="Class_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_FbH2A84cEeeonJO5i0chrg" type="Class_FloatingNameLabel">
@@ -837,41 +836,6 @@
     </styles>
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FbQY5c4cEeeonJO5i0chrg" x="200"/>
-=======
-  <children xmi:type="notation:Shape" xmi:id="_9YjjMM4aEeeonJO5i0chrg" type="Class_Shape">
-    <children xmi:type="notation:DecorationNode" xmi:id="_9YobsM4aEeeonJO5i0chrg" type="Class_NameLabel"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_9Yobsc4aEeeonJO5i0chrg" type="Class_FloatingNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_9YpCwM4aEeeonJO5i0chrg" y="15"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_9Ypp0M4aEeeonJO5i0chrg" type="Class_AttributeCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_9Ypp0c4aEeeonJO5i0chrg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_9Ypp0s4aEeeonJO5i0chrg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_9Ypp084aEeeonJO5i0chrg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Ypp1M4aEeeonJO5i0chrg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_9Ypp1c4aEeeonJO5i0chrg" type="Class_OperationCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_9Ypp1s4aEeeonJO5i0chrg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_9Ypp184aEeeonJO5i0chrg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_9Ypp2M4aEeeonJO5i0chrg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Ypp2c4aEeeonJO5i0chrg"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_9Ypp2s4aEeeonJO5i0chrg" type="Class_NestedClassifierCompartment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_9Ypp284aEeeonJO5i0chrg"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_9Ypp3M4aEeeonJO5i0chrg"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_9Ypp3c4aEeeonJO5i0chrg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Ypp3s4aEeeonJO5i0chrg"/>
-    </children>
-    <element xmi:type="uml:Class" href="SharedDroneRequiremets.uml#_9WjYEM4aEeeonJO5i0chrg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9YjjMc4aEeeonJO5i0chrg" x="880" y="20"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_9Y6vkM4aEeeonJO5i0chrg" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_9Y6vkc4aEeeonJO5i0chrg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_9Y6vk84aEeeonJO5i0chrg" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="SharedDroneRequiremets.uml#_9WjYEM4aEeeonJO5i0chrg"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Y6vks4aEeeonJO5i0chrg" x="200"/>
->>>>>>> branch 'master' of https://github.com/Delphos-SE/ASharedDroneModel.git
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_0lKpMcMdEeeEluDV2uAdlw" name="diagram_compatibility_version" stringValue="1.3.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_0lKpMsMdEeeEluDV2uAdlw"/>
@@ -1263,7 +1227,6 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nMtScMbPEee0P7Ly8l1XUw" id="(1.0,0.9917355371900827)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nMtSccbPEee0P7Ly8l1XUw" id="(0.37267080745341613,0.0)"/>
   </edges>
-<<<<<<< HEAD
   <edges xmi:type="notation:Connector" xmi:id="_FbQY584cEeeonJO5i0chrg" type="StereotypeCommentLink" source="_FbH2AM4cEeeonJO5i0chrg" target="_FbQY484cEeeonJO5i0chrg">
     <styles xmi:type="notation:FontStyle" xmi:id="_FbQY6M4cEeeonJO5i0chrg"/>
     <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FbQ_8s4cEeeonJO5i0chrg" name="BASE_ELEMENT">
@@ -1280,23 +1243,5 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HnME8s4cEeeonJO5i0chrg" points="[540, 80, -643984, -643984]$[380, 80, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hp4zoM4cEeeonJO5i0chrg" id="(0.0,0.49586776859504134)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hp4zoc4cEeeonJO5i0chrg" id="(0.0,0.6)"/>
-=======
-  <edges xmi:type="notation:Connector" xmi:id="_9Y7WoM4aEeeonJO5i0chrg" type="StereotypeCommentLink" source="_9YjjMM4aEeeonJO5i0chrg" target="_9Y6vkM4aEeeonJO5i0chrg">
-    <styles xmi:type="notation:FontStyle" xmi:id="_9Y7Woc4aEeeonJO5i0chrg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_9Y79ss4aEeeonJO5i0chrg" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="SharedDroneRequiremets.uml#_9WjYEM4aEeeonJO5i0chrg"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9Y7Wos4aEeeonJO5i0chrg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9Y79sM4aEeeonJO5i0chrg"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9Y79sc4aEeeonJO5i0chrg"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_C-eC0M4bEeeonJO5i0chrg" type="Element_ContainmentEdge" source="_-Llw4MMdEeeEluDV2uAdlw" target="_9YjjMM4aEeeonJO5i0chrg">
-    <styles xmi:type="notation:FontStyle" xmi:id="_C-eC0c4bEeeonJO5i0chrg"/>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C-eC0s4bEeeonJO5i0chrg" points="[721, 80, -643984, -643984]$[880, 80, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DB_38M4bEeeonJO5i0chrg" id="(1.0,0.49586776859504134)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DB_38c4bEeeonJO5i0chrg" id="(0.0,0.5660377358490566)"/>
->>>>>>> branch 'master' of https://github.com/Delphos-SE/ASharedDroneModel.git
   </edges>
 </notation:Diagram>
