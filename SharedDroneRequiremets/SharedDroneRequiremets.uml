@@ -13,7 +13,11 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_pN6KoMbOEee0P7Ly8l1XUw" name="Security perimerter"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_sMy9oMbOEee0P7Ly8l1XUw" name="Software access"/>
       </nestedClassifier>
+<<<<<<< HEAD
       <nestedClassifier xmi:type="uml:Class" xmi:id="_FGuTUM4cEeeonJO5i0chrg" name="Requirement1"/>
+=======
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_9WjYEM4aEeeonJO5i0chrg" name="Prueba"/>
+>>>>>>> branch 'master' of https://github.com/Delphos-SE/ASharedDroneModel.git
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ra79AMWIEeeyZIxsEx9GKA" name="Communication"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_sPltEMWIEeeyZIxsEx9GKA" name="Movement">
@@ -121,5 +125,9 @@
   <Requirements:Requirement xmi:id="_lZZ-QMbOEee0P7Ly8l1XUw" base_Class="_lZPmMMbOEee0P7Ly8l1XUw" id="1.6.1" text="Drone MUST fly over the security height in order to avoid people"/>
   <Requirements:Requirement xmi:id="_pOEisMbOEee0P7Ly8l1XUw" base_Class="_pN6KoMbOEee0P7Ly8l1XUw" id="1.6.2" text="Drone MUST reamin allways within the building perimeter"/>
   <Requirements:Requirement xmi:id="_sM8uoMbOEee0P7Ly8l1XUw" base_Class="_sMy9oMbOEee0P7Ly8l1XUw" id="1.6.3" text="The access to the drone communication system MUST be protected with a log in password"/>
+<<<<<<< HEAD
   <Requirements:Requirement xmi:id="_FavbgM4cEeeonJO5i0chrg" base_Class="_FGuTUM4cEeeonJO5i0chrg" text="Otro requisito de prueba"/>
+=======
+  <Requirements:Requirement xmi:id="_9XelIM4aEeeonJO5i0chrg" base_Class="_9WjYEM4aEeeonJO5i0chrg" text="Texto de prueba&#xD;&#xA;"/>
+>>>>>>> branch 'master' of https://github.com/Delphos-SE/ASharedDroneModel.git
 </xmi:XMI>
