@@ -14,6 +14,7 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_sMy9oMbOEee0P7Ly8l1XUw" name="Software access"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_PVm6cM4iEeeonJO5i0chrg" name="Prueba"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_rGkDcM4jEeeonJO5i0chrg" name="Requisito 2"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ra79AMWIEeeyZIxsEx9GKA" name="Communication"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_sPltEMWIEeeyZIxsEx9GKA" name="Movement">
@@ -122,4 +123,5 @@
   <Requirements:Requirement xmi:id="_pOEisMbOEee0P7Ly8l1XUw" base_Class="_pN6KoMbOEee0P7Ly8l1XUw" id="1.6.2" text="Drone MUST reamin allways within the building perimeter"/>
   <Requirements:Requirement xmi:id="_sM8uoMbOEee0P7Ly8l1XUw" base_Class="_sMy9oMbOEee0P7Ly8l1XUw" id="1.6.3" text="The access to the drone communication system MUST be protected with a log in password"/>
   <Requirements:Requirement xmi:id="_PVry8M4iEeeonJO5i0chrg" base_Class="_PVm6cM4iEeeonJO5i0chrg" text="Requisito de prueba"/>
+  <Requirements:Requirement xmi:id="_rGt0cM4jEeeonJO5i0chrg" base_Class="_rGkDcM4jEeeonJO5i0chrg" text="Esto es una prueba"/>
 </xmi:XMI>
