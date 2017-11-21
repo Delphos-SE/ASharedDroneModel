@@ -46,9 +46,6 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_m5qM8MYGEeeyv7ushnNdsQ" name="Use fire extinguisher"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TdehEMYGEeeyv7ushnNdsQ" name="Get fire extinguisher"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_0SNw4M62Eee6TO_qthVkhA" name="CopyOf_Security lock_1">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_0SNw4c62Eee6TO_qthVkhA" name="Software access"/>
-    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dR4gMMdEeeEluDV2uAdlw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0dTGoMMdEeeEluDV2uAdlw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -139,6 +136,4 @@
   <Requirements:Requirement xmi:id="_stepkM61Eee6TO_qthVkhA" base_Class="_ss6o4M61Eee6TO_qthVkhA" id="1.6.3.1" text="In order to guarantee protection against non-desireed users, drone MUST lock if the log in process get wrong three times."/>
   <Requirements:Requirement xmi:id="_xws2YM62Eee6TO_qthVkhA" base_Class="_xwWREc62Eee6TO_qthVkhA" id="1.6.3" text="The access to the drone communication system MUST be protected with a log in password"/>
   <Requirements:Requirement xmi:id="_xw7f4M62Eee6TO_qthVkhA" base_Class="_xwWREM62Eee6TO_qthVkhA" id="1.6.3.1" text="In order to guarantee protection against non-desireed users, drone MUST lock if the log in process get wrong three times."/>
-  <Requirements:Requirement xmi:id="_0SVssM62Eee6TO_qthVkhA" base_Class="_0SNw4c62Eee6TO_qthVkhA" id="1.6.3" text="The access to the drone communication system MUST be protected with a log in password"/>
-  <Requirements:Requirement xmi:id="_0SjvIM62Eee6TO_qthVkhA" base_Class="_0SNw4M62Eee6TO_qthVkhA" id="1.6.3.1" text="In order to guarantee protection against non-desireed users, drone MUST lock if the log in process get wrong three times."/>
 </xmi:XMI>
