@@ -32,6 +32,7 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_IUJfcM8KEeemMaf8YwxlFQ" name="Battery level"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_t6_aQMbNEee0P7Ly8l1XUw" name="Battery recharge"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_FGBqcM-2EeeiKd2ifnAXEA" name="Visual identification"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cLu9AMWKEeeyZIxsEx9GKA" name="Vision">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_NbyLwMYDEeeyv7ushnNdsQ" name="Environment identification"/>
@@ -135,4 +136,5 @@
   <Requirements:Requirement xmi:id="_xws2YM62Eee6TO_qthVkhA" base_Class="_xwWREc62Eee6TO_qthVkhA" id="1.6.3" text="The access to the drone communication system MUST be protected with a log in password"/>
   <Requirements:Requirement xmi:id="_xw7f4M62Eee6TO_qthVkhA" base_Class="_xwWREM62Eee6TO_qthVkhA" id="1.6.3.1" text="In order to guarantee protection against non-desireed users, drone MUST lock if the log in process get wrong three times."/>
   <Requirements:Requirement xmi:id="_IU8wsM8KEeemMaf8YwxlFQ" base_Class="_IUJfcM8KEeemMaf8YwxlFQ" id="1.5.2.1" text="The drone MUST know the state of ist battery at all times."/>
+  <Requirements:Requirement xmi:id="_FHH2oM-2EeeiKd2ifnAXEA" base_Class="_FGBqcM-2EeeiKd2ifnAXEA" id="1.5.4" text="DRONE MUST have lights that allow its identification"/>
 </xmi:XMI>
