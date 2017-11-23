@@ -997,7 +997,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cs8AOdBMEeepneDXrbCWMg"/>
     </children>
     <element xmi:type="uml:Class" href="SharedDroneRequirements.uml#_cql20NBMEeepneDXrbCWMg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_csrhgdBMEeepneDXrbCWMg" x="440" y="620"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_csrhgdBMEeepneDXrbCWMg" x="480" y="620"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_ctQwUNBMEeepneDXrbCWMg" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_ctQwUdBMEeepneDXrbCWMg"/>
