@@ -35,7 +35,9 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_FGBqcM-2EeeiKd2ifnAXEA" name="Visual identification"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cLu9AMWKEeeyZIxsEx9GKA" name="Vision">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_NbyLwMYDEeeyv7ushnNdsQ" name="Environment identification"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_NbyLwMYDEeeyv7ushnNdsQ" name="Environment identification">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_mvMrINBTEee3Cdx6KA5lvA" name="Weather conditions"/>
+      </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_XlzIsMYDEeeyv7ushnNdsQ" name="Objective detection"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_R6OHEM40EeeP__1JeItuMQ" name="Height detection"/>
     </packagedElement>
@@ -140,4 +142,5 @@
   <Requirements:Requirement xmi:id="_IU8wsM8KEeemMaf8YwxlFQ" base_Class="_IUJfcM8KEeemMaf8YwxlFQ" id="1.5.2.1" text="The drone MUST know the state of ist battery at all times."/>
   <Requirements:Requirement xmi:id="_FHH2oM-2EeeiKd2ifnAXEA" base_Class="_FGBqcM-2EeeiKd2ifnAXEA" id="1.5.4" text="DRONE MUST have lights that allow its identification"/>
   <Requirements:Requirement xmi:id="_cr4QQNBMEeepneDXrbCWMg" base_Class="_cql20NBMEeepneDXrbCWMg"/>
+  <Requirements:Requirement xmi:id="_mvXqQNBTEee3Cdx6KA5lvA" base_Class="_mvMrINBTEee3Cdx6KA5lvA" id="1.3.1.1" text="Drone MUST be able to work in different weather conditions."/>
 </xmi:XMI>
