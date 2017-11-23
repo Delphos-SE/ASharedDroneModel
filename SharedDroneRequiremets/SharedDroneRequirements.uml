@@ -21,7 +21,9 @@
         </nestedClassifier>
       </nestedClassifier>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ra79AMWIEeeyZIxsEx9GKA" name="Communication"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ra79AMWIEeeyZIxsEx9GKA" name="Communication">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_QthxcNBYEeeiUpEguzD88Q" name="EmergencySignal"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_sPltEMWIEeeyZIxsEx9GKA" name="Movement">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_kq5BkMYBEeeyv7ushnNdsQ" name="Entrance dealing"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_f5-I4MYEEeeyv7ushnNdsQ" name="Take off and Landing"/>
@@ -143,4 +145,5 @@
   <Requirements:Requirement xmi:id="_FHH2oM-2EeeiKd2ifnAXEA" base_Class="_FGBqcM-2EeeiKd2ifnAXEA" id="1.5.4" text="DRONE MUST have lights that allow its identification"/>
   <Requirements:Requirement xmi:id="_cr4QQNBMEeepneDXrbCWMg" base_Class="_cql20NBMEeepneDXrbCWMg"/>
   <Requirements:Requirement xmi:id="_hoflINBVEee3Cdx6KA5lvA" base_Class="_hoWbMNBVEee3Cdx6KA5lvA" id="1.3.1.1" text="Drone MUST be able to work in different weather conditions."/>
+  <Requirements:Requirement xmi:id="_QuKDkNBYEeeiUpEguzD88Q" base_Class="_QthxcNBYEeeiUpEguzD88Q" id="1.1.1" text="The drone MUST be able to send an emergency signal to the server in case of critical failure"/>
 </xmi:XMI>
