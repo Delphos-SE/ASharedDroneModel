@@ -45,7 +45,9 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_R6OHEM40EeeP__1JeItuMQ" name="Height detection"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_SI1pUNCOEeeqEc3IpiH4Pg" name="People detection"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_jKuBAMWNEeeyZIxsEx9GKA" name="Inside movement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jKuBAMWNEeeyZIxsEx9GKA" name="Inside movement">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_FX1KoND_EeeLjd_QIH20Yg" name="Height"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QT4aQMYDEeeyv7ushnNdsQ" name="Collision detection"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_QrELMMYDEeeyv7ushnNdsQ" name="Fire detection"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_fLcvEMWNEeeyZIxsEx9GKA" name="Outside movement"/>
@@ -147,4 +149,5 @@
   <Requirements:Requirement xmi:id="_QuKDkNBYEeeiUpEguzD88Q" base_Class="_QthxcNBYEeeiUpEguzD88Q" id="1.1.1" text="The drone MUST be able to send an emergency signal to the server in case of critical failure"/>
   <Requirements:Requirement xmi:id="_my-l0NB9EeerMIZ72o58lg" base_Class="_mx5nwNB9EeerMIZ72o58lg" id="1.6.4" text="Drone MUST be able to work in situations with water dust and fire"/>
   <Requirements:Requirement xmi:id="_SKLGENCOEeeqEc3IpiH4Pg" base_Class="_SI1pUNCOEeeqEc3IpiH4Pg" id="1.3.6" text="Drone SHOULD be able to distinguish people from objects to avoid collisions&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_FZ3yAND_EeeLjd_QIH20Yg" base_Class="_FX1KoND_EeeLjd_QIH20Yg" id="1.2.4.1" text="Drone MUST reach heights exceeding those of firefighter truck ladders "/>
 </xmi:XMI>
