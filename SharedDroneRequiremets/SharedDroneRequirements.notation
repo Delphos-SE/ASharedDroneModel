@@ -1167,7 +1167,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wTkQQNEKEeeQD6_LpjesXg"/>
     </children>
     <element xmi:type="uml:Class" href="SharedDroneRequirements.uml#_vqpPANEKEeeQD6_LpjesXg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wTfXsdEKEeeQD6_LpjesXg" x="480" y="520" width="161" height="161"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wTfXsdEKEeeQD6_LpjesXg" x="480" y="520" width="181" height="161"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_wTuBMNEKEeeQD6_LpjesXg" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_wTuBMdEKEeeQD6_LpjesXg"/>
