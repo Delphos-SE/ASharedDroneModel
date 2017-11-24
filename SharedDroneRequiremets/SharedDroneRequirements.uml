@@ -39,7 +39,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_cLu9AMWKEeeyZIxsEx9GKA" name="Vision">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_NbyLwMYDEeeyv7ushnNdsQ" name="Environment identification">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_hoWbMNBVEee3Cdx6KA5lvA" name="Weather conditions"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_hoWbMNBVEee3Cdx6KA5lvA" name="Weather conditions">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_vqpPANEKEeeQD6_LpjesXg" name="Wind Speed"/>
+        </nestedClassifier>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_XlzIsMYDEeeyv7ushnNdsQ" name="Objective detection"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_R6OHEM40EeeP__1JeItuMQ" name="Height detection"/>
@@ -150,4 +152,5 @@
   <Requirements:Requirement xmi:id="_my-l0NB9EeerMIZ72o58lg" base_Class="_mx5nwNB9EeerMIZ72o58lg" id="1.6.4" text="Drone MUST be able to work in situations with water dust and fire"/>
   <Requirements:Requirement xmi:id="_SKLGENCOEeeqEc3IpiH4Pg" base_Class="_SI1pUNCOEeeqEc3IpiH4Pg" id="1.3.6" text="Drone SHOULD be able to distinguish people from objects to avoid collisions&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_FZ3yAND_EeeLjd_QIH20Yg" base_Class="_FX1KoND_EeeLjd_QIH20Yg" id="1.2.4.1" text="Drone MUST reach heights exceeding those of firefighter truck ladders "/>
+  <Requirements:Requirement xmi:id="_wRBSgNEKEeeQD6_LpjesXg" base_Class="_vqpPANEKEeeQD6_LpjesXg" id="1.3.1.1.1" text="Drone MUST be able to measure the wind speed when is required"/>
 </xmi:XMI>
