@@ -30,6 +30,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_sPltEMWIEeeyZIxsEx9GKA" name="Movement">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_kq5BkMYBEeeyv7ushnNdsQ" name="Entrance dealing"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_f5-I4MYEEeeyv7ushnNdsQ" name="Take off and Landing"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_wqrZwNE4EeedWI3YiCLv6Q" name="Return Back Home"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2n-V0MWLEeeyZIxsEx9GKA" name="Physical properties">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_vtPQgMYIEeeyv7ushnNdsQ" name="Size"/>
@@ -159,4 +160,5 @@
   <Requirements:Requirement xmi:id="_vNgYUNEQEeeQD6_LpjesXg" base_Class="_useH0NEQEeeQD6_LpjesXg" id="1.6.3.1.1" text="Drone MUST be able to detect itself if It has any component deteriorated or broken. It sends a notification to the terminal"/>
   <Requirements:Requirement xmi:id="_WkXXANEeEeen5OU7I05MZg" base_Class="_WjemMNEeEeen5OU7I05MZg" id="1.4.3" text="When the fire cannot be successfuly extinguished, the Drone must send an alarm."/>
   <Requirements:Requirement xmi:id="_UqvtgNEfEeen5OU7I05MZg" base_Class="_Uo56cNEfEeen5OU7I05MZg" id="1.6.5" text="In case the drone suffer some damage, it sends an alarm and com back to the initial point"/>
+  <Requirements:Requirement xmi:id="_wrrfUNE4EeedWI3YiCLv6Q" base_Class="_wqrZwNE4EeedWI3YiCLv6Q" id="1.2.5" text="Drone MUST be able to return to the taking off spot by its own methods"/>
 </xmi:XMI>
