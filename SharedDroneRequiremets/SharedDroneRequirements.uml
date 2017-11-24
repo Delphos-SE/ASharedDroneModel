@@ -21,6 +21,7 @@
           </nestedClassifier>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_mx5nwNB9EeerMIZ72o58lg" name="Protection against fire, water and dust"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Uo56cNEfEeen5OU7I05MZg" name="Damage"/>
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ra79AMWIEeeyZIxsEx9GKA" name="Communication">
@@ -56,6 +57,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_fLcvEMWNEeeyZIxsEx9GKA" name="Outside movement"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_kW2H0MWLEeeyZIxsEx9GKA" name="Fire extinguish">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_m5qM8MYGEeeyv7ushnNdsQ" name="Use fire extinguisher"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_WjemMNEeEeen5OU7I05MZg" name="Fire cannot be extinguished"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TdehEMYGEeeyv7ushnNdsQ" name="Get fire extinguisher"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0dR4gMMdEeeEluDV2uAdlw">
@@ -155,4 +157,6 @@
   <Requirements:Requirement xmi:id="_FZ3yAND_EeeLjd_QIH20Yg" base_Class="_FX1KoND_EeeLjd_QIH20Yg" id="1.2.4.1" text="Drone MUST reach heights exceeding those of firefighter truck ladders "/>
   <Requirements:Requirement xmi:id="_wRBSgNEKEeeQD6_LpjesXg" base_Class="_vqpPANEKEeeQD6_LpjesXg" id="1.3.1.1.1" text="Drone MUST be able to measure the wind speed when is required"/>
   <Requirements:Requirement xmi:id="_vNgYUNEQEeeQD6_LpjesXg" base_Class="_useH0NEQEeeQD6_LpjesXg" id="1.6.3.1.1" text="Drone MUST be able to detect itself if It has any component deteriorated or broken. It sends a notification to the terminal"/>
+  <Requirements:Requirement xmi:id="_WkXXANEeEeen5OU7I05MZg" base_Class="_WjemMNEeEeen5OU7I05MZg" id="1.4.3" text="When the fire cannot be successfuly extinguished, the Drone must send an alarm."/>
+  <Requirements:Requirement xmi:id="_UqvtgNEfEeen5OU7I05MZg" base_Class="_Uo56cNEfEeen5OU7I05MZg" id="1.6.5" text="In case the drone suffer some damage, it sends an alarm and com back to the initial point"/>
 </xmi:XMI>
